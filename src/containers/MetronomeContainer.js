@@ -1,6 +1,7 @@
-import React, {Component, Fragment} from 'react'
+import React, {Component} from 'react'
 import MetronomeSlider from '../components/MetronomeSlider'
 import MetronomeButtons from '../components/MetronomeButtons'
+import './MetronomeContainer.css'
 
 class MetronomeContainer extends Component {
 
@@ -19,11 +20,10 @@ class MetronomeContainer extends Component {
 
   render(){
     return(
-      <Fragment>
-        <h1>Container</h1>
+      <section className="metronome-container">
         <MetronomeSlider selectedBPM={this.state.selectedBPM} onBPMSelected={this.handleBPMSelected} />
         <MetronomeButtons sound={this.state.sound} selectedBPM={this.state.selectedBPM} />
-      </Fragment>
+      </section>
     )
   }
 }

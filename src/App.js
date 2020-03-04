@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './App.css';
 import MetronomeContainer from './containers/MetronomeContainer'
 
 function App() {
   return (
-    <MetronomeContainer />
+    <section className="main-container">
+      <h1>Metronome</h1>
+      <MetronomeContainer/>
+    </section>
   );
 }
 

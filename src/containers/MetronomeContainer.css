@@ -1,0 +1,12 @@
+.metronome-container{
+  
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  border: 1px solid black;
+
+}
+
+.title {
+  padding-bottom: 1em;
+}

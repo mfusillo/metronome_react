@@ -1,0 +1,23 @@
+.button-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.button-style {
+  background-color: rgb(54, 56, 54); /* Green */
+  border: none;
+  border-radius: 50%;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  justify-self: center;
+}
+
+.button-style:hover{
+  background-color: white; /* Green */
+  
+  color: rgb(54, 56, 54);
+}

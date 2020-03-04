@@ -1,4 +1,5 @@
 import React from 'react'
+import './MetronomeButtons.css'
 
 export default function MetronomeButtons({sound, selectedBPM}) {
 
@@ -17,9 +18,9 @@ export default function MetronomeButtons({sound, selectedBPM}) {
 
   
   return (
-    <section>
-      <button onClick={handlePlayClick}></button>
-      <button onClick={handleStopClick}></button>
+    <section className="button-container">
+      <button className="button-style" onClick={handlePlayClick}><i class="fas fa-play fa-2x"></i></button>
+      <button className="button-style" onClick={handleStopClick}><i class="fas fa-stop fa-2x"></i></button>
     </section>
   )
 }

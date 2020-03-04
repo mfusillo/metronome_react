@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function MetronomeSlider ({selectedBPM, onBPMSelected}){
 
@@ -8,10 +8,10 @@ function MetronomeSlider ({selectedBPM, onBPMSelected}){
 
 
   return(
-    <section>
-      <h2>{selectedBPM}</h2>
+    <Fragment>
+      <h2>{selectedBPM} BPM</h2>
       <input onChange={handleChange} type="range" min="40" max="220" value={selectedBPM} />
-    </section>
+    </Fragment>
   )
 }
 
