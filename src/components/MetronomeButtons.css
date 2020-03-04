@@ -4,10 +4,9 @@
 }
 
 .button-style {
-  background-color: rgb(54, 56, 54); /* Green */
-  border: none;
-  border-radius: 50%;
-  color: white;
+  background-color: white; /* Green */
+  border:none;
+  color: rgb(54, 56, 54);
   
   text-align: center;
   text-decoration: none;
@@ -16,8 +15,3 @@
   justify-self: center;
 }
 
-.button-style:hover{
-  background-color: white; /* Green */
-  
-  color: rgb(54, 56, 54);
-}

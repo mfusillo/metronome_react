@@ -1,6 +1,10 @@
 .main-container {
  display: grid;
  grid-template-rows: 1fr 2fr;
- justify-content: center;
+ justify-content: start;
+ padding-left: 3em;
+ padding-top: 2em;
 }
+
+
 

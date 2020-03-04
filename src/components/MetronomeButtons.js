@@ -19,8 +19,8 @@ export default function MetronomeButtons({sound, selectedBPM}) {
   
   return (
     <section className="button-container">
-      <button className="button-style" onClick={handlePlayClick}><i class="fas fa-play fa-2x"></i></button>
-      <button className="button-style" onClick={handleStopClick}><i class="fas fa-stop fa-2x"></i></button>
+      <button className="button-style" onClick={handlePlayClick}><i class="fas fa-play fa-4x"></i></button>
+      <button className="button-style" onClick={handleStopClick}><i class="fas fa-stop fa-4x"></i></button>
     </section>
   )
 }
