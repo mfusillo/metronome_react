@@ -3,7 +3,7 @@ import React from 'react'
 function MetronomeSlider ({selectedBPM, onBPMSelected}){
 
   function handleChange(event){
-    onBPMSelected(event.target.value)
+    onBPMSelected(parseInt(event.target.value));
   }
 
 
